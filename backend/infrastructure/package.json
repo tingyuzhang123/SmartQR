@@ -1,0 +1,13 @@
+{
+  "name": "smartQR",
+  "version": "1.0.0",
+  "description": "smartQR",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.85.0",
+    "shortid": "^2.2.8",
+    "uuid": "^2.0.3"
+  }
+}

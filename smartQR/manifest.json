@@ -1,0 +1,34 @@
+{
+   "name": "SmartQR",
+   "version": "1.0",
+   "description": "Convert current url to the QRcode and recommend page url by QRcode according to users' browsing history",
+   "browser_action": {
+      "default_title": "SmartQR",
+      "default_icon":{
+     "19": "icon-16.png",
+	 "38": "icon-32.png"        },
+   "default_popup": "popup.html"
+  },
+   "background": {  "persistent": false,
+             "scripts": ["js/jquery.qrcode.js"   ]
+    },
+   "chrome_url_overrides": {
+      	"newtab": "index.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/jquery.min.js","js/smartqr.js","js/app.js","js/qrcode.js","js/jquery.qrcode.js" ],
+      "matches": ["http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],   
+   "description": "Convert current url to the QRcode and recommend page url by QRcode according to users' browsing history.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png"
+   },  
+   "manifest_version": 2,
+   "name": "SmartQR",
+   "offline_enabled": true,      
+   "permissions": [ "activeTab", "tabs", "storage","webNavigation", "cookies", "browsingData", "http://*/*", "https://*/*",  "contextMenus", "<all_urls>" ],
+   "short_name": "SmartQR"   
+}
