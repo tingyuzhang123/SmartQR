@@ -31,11 +31,8 @@ Demo
 Developer
 ========
 Tingyu Zhang<br>
-Student ID: 802683917<br>
 Xiaoliang Li<br>
-Student ID:483796622<br>
 Qiuchen FENG<br>
-Student ID: 708352863<br>
 Libraries and tools
 =========
 -[Google APIs client library for Chrome Apps](https://github.com/GoogleChrome/chrome-app-samples/tree/master/libraries/gapi-chrome-apps-lib)  
