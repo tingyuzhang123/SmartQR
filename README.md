@@ -37,4 +37,4 @@ Libraries and tools
 -[Google APIs client library for Chrome Apps](https://github.com/GoogleChrome/chrome-app-samples/tree/master/libraries/gapi-chrome-apps-lib)  
 -[Google Analytics for Chrome Apps and Extensions](https://github.com/googlearchive/chrome-platform-analytics)
 
-@copyright-Compsci732 Project
+@copyright
