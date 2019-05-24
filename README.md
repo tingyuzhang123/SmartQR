@@ -21,7 +21,6 @@ Design Structure
 Recommendation Engine
 ========
 
-http://default-environment.7dazupxx86.ap-southeast-2.elasticbeanstalk.com/swagger-ui.html
 ![](/smartQR/images/re-engine.png)
 
 Demo
